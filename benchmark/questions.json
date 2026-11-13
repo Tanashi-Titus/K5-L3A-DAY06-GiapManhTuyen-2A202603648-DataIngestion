@@ -1,0 +1,223 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Which two independent routes led to modern quantum mechanics in 1925–1926?",
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 2,
+    "evidence_quote": "matrix mechanics of Heisenberg, Born and Jordan",
+    "answer": "Matrix mechanics and wave mechanics.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Who laid the conceptual foundations for the path-integral formulation?",
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 2,
+    "evidence_quote": "conceptual foundations of which were laid down in Dirac’s 1933 paper",
+    "answer": "P. A. M. Dirac.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What key physical idea does the paper say the path-integral approach introduces immediately?",
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 2,
+    "evidence_quote": "quantum-mechanical superposition",
+    "answer": "The action integral along the path.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What is the main purpose of the paper?",
+    "filter": {
+      "section": "introduction"
+    },
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 4,
+    "evidence_quote": "show how the time-dependent",
+    "answer": "Derive the time-dependent Schrödinger equation from the Hamilton–Jacobi equation and path-integral postulate.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What classical equation is used with the path-integral dynamical postulate to derive the time-dependent Schrödinger equation?",
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 4,
+    "evidence_quote": "Hamilton-Jacobi equation",
+    "answer": "The Hamilton–Jacobi equation.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "In the path-integral formula, what does the action S represent?",
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 6,
+    "evidence_quote": "the indeﬁnite time integral of the Lagrangian",
+    "answer": "The time integral of the Lagrangian (up to a constant).",
+    "evidence_verified": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "According to the paper, what is the path amplitude for a free particle related to?",
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 8,
+    "evidence_quote": "wavefunction is then defined as",
+    "answer": "The action through ψ = exp(iS/ħ).",
+    "evidence_verified": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What does τ denote in the rest-particle path-amplitude expression?",
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 10,
+    "evidence_quote": "where τ is the proper (rest frame) time",
+    "answer": "The proper time in the particle rest frame.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How is S written using p, x, E, and t in the Lorentz-invariant expression?",
+    "filter": {
+      "section": "summary_and_discussion"
+    },
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 26,
+    "evidence_quote": "S = px −Et",
+    "answer": "S = px − Et.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What relation does the paper give between the action and the Lagrangian?",
+    "gold_source_id": "arxiv-1204.0653-v1",
+    "gold_page": 6,
+    "evidence_quote": "identifies S as the indeﬁnite time integral of the Lagrangian",
+    "answer": "The action is the time integral of the Lagrangian plus a constant.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Which physical examples does the article study using tomographic probability distributions?",
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 2,
+    "evidence_quote": "quantum oscillator states and states of a charged particle moving in the electric field",
+    "answer": "Quantum-oscillator states and a charged particle moving in an electric field.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "In the probability representation, what physical quantity does X denote?",
+    "filter": {
+      "section": "symplectic_tomography"
+    },
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 3,
+    "evidence_quote": "the parameter X is the position of the charged particle",
+    "answer": "The measured position of the charged particle in the transformed phase-space frame.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What parameter values are assumed for the oscillator and Planck’s constant in the thermal-state section?",
+    "filter": {
+      "section": "oscillator_temperature"
+    },
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 5,
+    "evidence_quote": "m = ω = ¯h = 1",
+    "answer": "m = ω = ℏ = 1.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "How does the paper define the charge acceleration in a constant electric field?",
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 7,
+    "evidence_quote": "a = eE is the charge acceleration",
+    "answer": "a = eE.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "For quadratic Hamiltonians, how are the Heisenberg position and momentum represented?",
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 10,
+    "evidence_quote": "the Heisenberg position and momentum are expressed as linear forms",
+    "answer": "As linear forms in position and momentum.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What information does the symplectic tomogram contain about a quantum state?",
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 3,
+    "evidence_quote": "contains all information on the density operator",
+    "answer": "All information on the density operator and hence the quantum state.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What are the mean position and mean momentum in the Gaussian thermal state?",
+    "filter": {
+      "section": "oscillator_temperature"
+    },
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 5,
+    "evidence_quote": "are equal to zero",
+    "answer": "Both means are zero.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "What determines the constant acceleration parameter for a charged particle in the electric field?",
+    "filter": {
+      "section": "charge_in_electric_field"
+    },
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 7,
+    "evidence_quote": "a = eE is the charge acceleration",
+    "answer": "The charge and electric field, a = eE.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Which equation governs the time evolution of the density operator?",
+    "filter": {
+      "section": "density_operator_evolution"
+    },
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 8,
+    "evidence_quote": "satisfies the von Neumann equation",
+    "answer": "The von Neumann equation.",
+    "evidence_verified": true
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Which two formulations does the conclusion relate through the Green function?",
+    "gold_source_id": "mdpi-entropy-2023-25-213",
+    "gold_page": 13,
+    "evidence_quote": "relation of the Green function of the Schrödinger equation to the Feynmann path integral",
+    "answer": "The Schrödinger Green function and the Feynman path integral.",
+    "evidence_verified": true
+  }
+]

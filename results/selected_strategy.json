@@ -1,0 +1,4 @@
+{
+  "strategy": "C",
+  "rationale": "Chọn trước khi mở test theo tiêu chí Hit@3 dev trước, Hit@1 làm tiêu chí phụ: C đạt Hit@3 8/15 (hòa A/B) và Hit@1 6/15 (A 4/15, B 5/15)."
+}

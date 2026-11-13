@@ -1,0 +1,54 @@
+{
+  "model": "D:\\Tuyen\\vinuni\\lab\\K5-L3A-Day05-Track3-ThoCode\\models\\embeddinggemma-2",
+  "dimensions": 768,
+  "store": "Chroma persistent, cosine",
+  "cost": 0,
+  "documents": [
+    {
+      "document_id": "arxiv-1204.0653-v1",
+      "source": "data/data.pdf",
+      "physical_pages": 30,
+      "content_pages": 28
+    },
+    {
+      "document_id": "mdpi-entropy-2023-25-213",
+      "source": "data/quantum-oscillator.pdf",
+      "physical_pages": 14,
+      "content_pages": 13
+    }
+  ],
+  "stats": [
+    {
+      "strategy": "A",
+      "chunks": 248,
+      "characters": 115412,
+      "min_length": 72,
+      "max_length": 500,
+      "mean_length": 465.4,
+      "vectors": 248,
+      "seconds": 180.93
+    },
+    {
+      "strategy": "B",
+      "chunks": 275,
+      "characters": 104896,
+      "min_length": 5,
+      "max_length": 500,
+      "mean_length": 381.4,
+      "vectors": 275,
+      "seconds": 141.94
+    },
+    {
+      "strategy": "C",
+      "chunks": 275,
+      "characters": 104896,
+      "min_length": 5,
+      "max_length": 500,
+      "mean_length": 381.4,
+      "vectors": 275,
+      "seconds": 1.02
+    }
+  ],
+  "total_seconds": 412.95,
+  "environment": "D:\\miniconda3\\python.exe"
+}

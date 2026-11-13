@@ -1,0 +1,182 @@
+{
+  "1": {
+    "section": "front_matter",
+    "page_type": "front_matter",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "2": {
+    "section": "introduction",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "3": {
+    "section": "introduction",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "4": {
+    "section": "introduction",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "5": {
+    "section": "hamilton_jacobi_and_path_integral",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "6": {
+    "section": "hamilton_jacobi_and_path_integral",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "7": {
+    "section": "schrodinger_path_amplitude",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "8": {
+    "section": "schrodinger_path_amplitude",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "9": {
+    "section": "schrodinger_path_amplitude",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "10": {
+    "section": "schrodinger_path_amplitude",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "11": {
+    "section": "de_broglie_and_wave_particle_duality",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "12": {
+    "section": "de_broglie_and_wave_particle_duality",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "13": {
+    "section": "de_broglie_and_wave_particle_duality",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "14": {
+    "section": "de_broglie_and_wave_particle_duality",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "15": {
+    "section": "de_broglie_and_wave_particle_duality",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "16": {
+    "section": "de_broglie_and_wave_particle_duality",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "17": {
+    "section": "operators_and_eigenstates",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "18": {
+    "section": "operators_and_eigenstates",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "19": {
+    "section": "operators_and_eigenstates",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "20": {
+    "section": "schrodinger_derivations",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "21": {
+    "section": "schrodinger_derivations",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "22": {
+    "section": "schrodinger_derivations",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "23": {
+    "section": "schrodinger_derivations",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "24": {
+    "section": "schrodinger_derivations",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "25": {
+    "section": "summary_and_discussion",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "26": {
+    "section": "summary_and_discussion",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "27": {
+    "section": "summary_and_discussion",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "28": {
+    "section": "summary_and_references",
+    "page_type": "content",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "29": {
+    "section": "references",
+    "page_type": "references",
+    "language": "en",
+    "document_type": "research_preprint"
+  },
+  "30": {
+    "section": "references",
+    "page_type": "references",
+    "language": "en",
+    "document_type": "research_preprint"
+  }
+}

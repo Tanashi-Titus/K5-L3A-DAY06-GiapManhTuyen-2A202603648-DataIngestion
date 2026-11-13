@@ -1,0 +1,22 @@
+{
+  "model": "D:\\Tuyen\\vinuni\\lab\\K5-L3A-Day05-Track3-ThoCode\\models\\embeddinggemma-2",
+  "dimensions": 768,
+  "normalization": "L2; cosine-compatible",
+  "environment": "D:\\miniconda3\\python.exe",
+  "A": {
+    "chunks": 248,
+    "vectors": 248,
+    "file": "results/vectors_A.npz"
+  },
+  "B": {
+    "chunks": 275,
+    "vectors": 275,
+    "file": "results/vectors_B.npz"
+  },
+  "C": {
+    "chunks": 275,
+    "vectors": 275,
+    "file": "results/vectors_C.npz",
+    "reuses": "B"
+  }
+}

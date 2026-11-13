@@ -1,0 +1,14 @@
+{
+  "backend": "Chroma PersistentClient",
+  "path": "D:\\Tuyen\\vinuni\\lab\\K5-L3A-DAY06-GiapManhTuyen-2A202603648-DataIngestion\\results\\chroma",
+  "metric": "cosine",
+  "collections": {
+    "A": 248,
+    "B": 275,
+    "C": 275
+  },
+  "sources": [
+    "data/data.pdf",
+    "data/quantum-oscillator.pdf"
+  ]
+}

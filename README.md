@@ -45,3 +45,7 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Triển khai lab và demo tại máy
+
+Phần hiện thực nằm trong `starter/`. Xem [hướng dẫn chạy](starter/README.md#triển-khai-pipeline-và-demo), [manifest](data/manifest.json), [kế hoạch so sánh](artifacts/experiment_plan.txt) và [bảng đối chiếu](report/individual/TRANG_THAI.md). Các kết quả chưa chạy hoặc chưa kiểm chứng không được xem là kết quả bài nộp.

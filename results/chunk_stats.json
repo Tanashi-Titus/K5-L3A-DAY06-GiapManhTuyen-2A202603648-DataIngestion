@@ -1,0 +1,89 @@
+{
+  "documents": [
+    {
+      "document_id": "arxiv-1204.0653-v1",
+      "source": "data/data.pdf",
+      "physical_pages": 30,
+      "content_pages": 28
+    },
+    {
+      "document_id": "mdpi-entropy-2023-25-213",
+      "source": "data/quantum-oscillator.pdf",
+      "physical_pages": 14,
+      "content_pages": 13
+    }
+  ],
+  "physical_pages_total": 44,
+  "content_pages_total": 41,
+  "content_requirement_met": true,
+  "total_extracted_characters": 105062,
+  "page_characters": {
+    "arxiv-1204.0653-v1:1": 972,
+    "arxiv-1204.0653-v1:2": 3763,
+    "arxiv-1204.0653-v1:3": 3802,
+    "arxiv-1204.0653-v1:4": 3111,
+    "arxiv-1204.0653-v1:5": 1799,
+    "arxiv-1204.0653-v1:6": 2213,
+    "arxiv-1204.0653-v1:7": 1923,
+    "arxiv-1204.0653-v1:8": 1777,
+    "arxiv-1204.0653-v1:9": 2676,
+    "arxiv-1204.0653-v1:10": 2074,
+    "arxiv-1204.0653-v1:11": 2377,
+    "arxiv-1204.0653-v1:12": 2488,
+    "arxiv-1204.0653-v1:13": 2389,
+    "arxiv-1204.0653-v1:14": 2257,
+    "arxiv-1204.0653-v1:15": 1897,
+    "arxiv-1204.0653-v1:16": 2659,
+    "arxiv-1204.0653-v1:17": 2248,
+    "arxiv-1204.0653-v1:18": 2062,
+    "arxiv-1204.0653-v1:19": 3100,
+    "arxiv-1204.0653-v1:20": 3169,
+    "arxiv-1204.0653-v1:21": 1739,
+    "arxiv-1204.0653-v1:22": 1991,
+    "arxiv-1204.0653-v1:23": 2125,
+    "arxiv-1204.0653-v1:24": 2413,
+    "arxiv-1204.0653-v1:25": 2613,
+    "arxiv-1204.0653-v1:26": 3682,
+    "arxiv-1204.0653-v1:27": 3718,
+    "arxiv-1204.0653-v1:28": 2175,
+    "mdpi-entropy-2023-25-213:1": 4093,
+    "mdpi-entropy-2023-25-213:2": 3061,
+    "mdpi-entropy-2023-25-213:3": 2659,
+    "mdpi-entropy-2023-25-213:4": 2491,
+    "mdpi-entropy-2023-25-213:5": 2224,
+    "mdpi-entropy-2023-25-213:6": 1657,
+    "mdpi-entropy-2023-25-213:7": 1961,
+    "mdpi-entropy-2023-25-213:8": 2388,
+    "mdpi-entropy-2023-25-213:9": 2254,
+    "mdpi-entropy-2023-25-213:10": 3020,
+    "mdpi-entropy-2023-25-213:11": 2112,
+    "mdpi-entropy-2023-25-213:12": 3285,
+    "mdpi-entropy-2023-25-213:13": 4645
+  },
+  "strategies": {
+    "A": {
+      "chunks": 248,
+      "characters": 115412,
+      "min_length": 72,
+      "max_length": 500,
+      "mean_length": 465.4,
+      "vectors": 248
+    },
+    "B": {
+      "chunks": 275,
+      "characters": 104896,
+      "min_length": 5,
+      "max_length": 500,
+      "mean_length": 381.4,
+      "vectors": 275
+    },
+    "C": {
+      "chunks": 275,
+      "characters": 104896,
+      "min_length": 5,
+      "max_length": 500,
+      "mean_length": 381.4,
+      "vectors": 275
+    }
+  }
+}

@@ -1,0 +1,6 @@
+A: cửa sổ 500 ký tự, overlap 50, không filter.
+B: nhóm đoạn/dòng văn bản PDF tối đa 500 ký tự, không filter. PDF có text layer; pipeline này không chạy OCR.
+C: chunk và vector giống B; filter metadata `section` khi câu hỏi yêu cầu phạm vi đã biết.
+Chọn trên dev: ưu tiên Evidence Hit@3; nếu hòa, Hit@1; nếu vẫn hòa, chọn B để tránh filter không cần thiết. Chốt trước khi chạy test. Không chỉnh chiến lược theo test.
+
+Bộ câu hỏi benchmark/questions.json đã được lập và chia trước khi chạy retrieval. Câu hỏi tập trung vào một số trang, nên mẫu nhỏ và có thiên lệch phạm vi; không suy rộng kết quả. Evidence cần được đối chiếu với PDF gốc. Các giả thuyết trong experiment_log.csv được diễn đạt lại từ kế hoạch/cấu hình hiện có, không có timestamp độc lập chứng minh thời điểm ghi trước khi chạy.

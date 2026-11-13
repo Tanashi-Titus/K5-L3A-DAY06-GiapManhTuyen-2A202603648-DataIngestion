@@ -1,0 +1,27 @@
+{
+  "source_id": "arxiv-1204.0653-v1",
+  "title": "Derivation of the Schrödinger equation from the Hamilton-Jacobi equation in Feynman's path integral formulation of quantum mechanics",
+  "author": "J. H. Field",
+  "source_path_or_url": "data/data.pdf",
+  "official_reference": "https://arxiv.org/abs/1204.0653v1",
+  "journal_reference": "European Journal of Physics 32 (2011), 63-87",
+  "version": "arXiv v1, submitted 2012-04-03",
+  "license_or_permission": "arXiv records a perpetual, non-exclusive license to distribute the article; this is not an open reuse license. Keep the user-provided copy local and verify redistribution rights before publishing it.",
+  "accessed_at": "2026-11-13",
+  "physical_pages": 30,
+  "content_page_rule": "Count title/abstract and article pages; exclude bibliography-only pages 29-30, consistent with GUIDE.md.",
+  "candidate_content_pages": "1-28",
+  "excluded_pages": {
+    "29": "References only",
+    "30": "References only"
+  },
+  "content_page_count": 28,
+  "minimum_required_content_pages": 30,
+  "meets_minimum_content_pages": false,
+  "extracted_characters": 72025,
+  "page_character_counts_file": "results/chunk_stats.json",
+  "page_metadata_file": "data/data_pdf_page_metadata.json",
+  "note": "The file is searchable text and was chunked as received. The corpus is two content pages short of the assignment minimum; the exact shortfall is recorded instead of counting bibliography pages.",
+  "download_url": "https://arxiv.org/pdf/1204.0653v1",
+  "sha256": "5084dd09c18ce849d90b28de34d1b245d3d3f5bf5bc3b638c20acdc4b43f4da3"
+}

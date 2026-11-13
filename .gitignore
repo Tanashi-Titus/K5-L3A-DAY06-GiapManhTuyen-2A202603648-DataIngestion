@@ -1,5 +1,6 @@
 __pycache__/
 .venv/
+.venv-embed/
 .env
 *.pyc
 
@@ -8,3 +9,23 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+results/chroma/
+results/vendor/
+results/embedding_vendor/
+results/models/
+# User-provided / out-of-scope corpus files (keep local; see data/manifest.json)
+data/data.pdf
+data/13nd*.pdf
+data/page_metadata.json
+# Legacy OCR and non-selected Nghị định 13 outputs
+results/ocr*.json
+results/ocr-check-*.png
+results/official_13nd*
+results/progress.json
+# Local stores and logs
+results/chroma*/
+results/app.stdout.log
+results/app.stderr.log
+# Superseded artifacts from the single-PDF exploratory run
+benchmark/questions_single_pdf_seen.json
+results/archive_single_pdf/

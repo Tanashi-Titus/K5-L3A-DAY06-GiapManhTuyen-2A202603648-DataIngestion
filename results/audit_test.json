@@ -1,0 +1,377 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "q16",
+    "grounding_score": 0,
+    "grounding_reason": "Top-3 is on related sections/pages but does not state the tomogram information asked.",
+    "metadata_checks": [
+      {
+        "chunk_id": "bb1ba2da90bed770d514",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "381815807970859f384d",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "ebc6fbd1144d50cc656c",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "B",
+    "question_id": "q16",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 states that the tomogram contains all information about the density operator.",
+    "metadata_checks": [
+      {
+        "chunk_id": "dc80f9a6dc14f40b30fd",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "5abfe1e07afd2985473e",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "75112f65f87a95457a51",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "C",
+    "question_id": "q16",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 states that the tomogram contains all information about the density operator.",
+    "metadata_checks": [
+      {
+        "chunk_id": "dc80f9a6dc14f40b30fd",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "5abfe1e07afd2985473e",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "75112f65f87a95457a51",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "A",
+    "question_id": "q17",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 contains the explicit zero mean statement or sufficient surrounding thermal-state context.",
+    "metadata_checks": [
+      {
+        "chunk_id": "7ae668d3cd419db2b74e",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "dffb52127da908c32455",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "5809c3c5fbbad0eea41d",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "B",
+    "question_id": "q17",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 contains the explicit zero mean statement or sufficient surrounding thermal-state context.",
+    "metadata_checks": [
+      {
+        "chunk_id": "877edcbd4ad1b4288eff",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "8b306f75bac31068f993",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "cca72870c4c0de07ee67",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "C",
+    "question_id": "q17",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 contains the explicit zero mean statement or sufficient surrounding thermal-state context.",
+    "metadata_checks": [
+      {
+        "chunk_id": "877edcbd4ad1b4288eff",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "8b306f75bac31068f993",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "5511b88e2d473895bdf2",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": true,
+    "filter_reason": "All three returned hits match the requested section."
+  },
+  {
+    "strategy": "A",
+    "question_id": "q18",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 directly identifies a = eE as the charge acceleration.",
+    "metadata_checks": [
+      {
+        "chunk_id": "e42a5d4ba16b12202186",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "1d35196903c8b570d931",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "1ec0a2c0fd0be6b51d49",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "B",
+    "question_id": "q18",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 directly identifies a = eE as the charge acceleration.",
+    "metadata_checks": [
+      {
+        "chunk_id": "8a380a65c986cd99be60",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "5726dbf97395a8ebcf0a",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "eaaab2f70dac80afba26",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "C",
+    "question_id": "q18",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 directly identifies a = eE as the charge acceleration.",
+    "metadata_checks": [
+      {
+        "chunk_id": "8a380a65c986cd99be60",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "5726dbf97395a8ebcf0a",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "cca72870c4c0de07ee67",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": true,
+    "filter_reason": "All three returned hits match the requested section."
+  },
+  {
+    "strategy": "A",
+    "question_id": "q19",
+    "grounding_score": 1,
+    "grounding_reason": "Top-3 shows the density-operator evolution relation, but does not clearly name the von Neumann equation.",
+    "metadata_checks": [
+      {
+        "chunk_id": "e5f4e307471c9864def8",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "7a34a67870529c8c4564",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "9a913be4ea3ce1d2a3c8",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "B",
+    "question_id": "q19",
+    "grounding_score": 1,
+    "grounding_reason": "Top-3 shows the density-operator evolution relation, but does not clearly name the von Neumann equation.",
+    "metadata_checks": [
+      {
+        "chunk_id": "9afc939d1862296830f8",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "e52ed9116d0912bd8597",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "d4f372ac854ffb7cdc11",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "C",
+    "question_id": "q19",
+    "grounding_score": 1,
+    "grounding_reason": "Top-3 shows the density-operator evolution relation, but does not clearly name the von Neumann equation.",
+    "metadata_checks": [
+      {
+        "chunk_id": "9afc939d1862296830f8",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "e52ed9116d0912bd8597",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "d4f372ac854ffb7cdc11",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": true,
+    "filter_reason": "All three returned hits match the requested section."
+  },
+  {
+    "strategy": "A",
+    "question_id": "q20",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 on page 4 states the Green-function/path-integral connection, though it is not the exact conclusion passage.",
+    "metadata_checks": [
+      {
+        "chunk_id": "7eaf42ce2a38db87b0a9",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "8ba1972b93d2e6f6368b",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "bf21246900456b22e5a9",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "B",
+    "question_id": "q20",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 on page 4 states the Green-function/path-integral connection, though it is not the exact conclusion passage.",
+    "metadata_checks": [
+      {
+        "chunk_id": "c17f65a49e2ea8a7f7a9",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "8b3bfd82cd254161eed2",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "6da302d75ccb8586c900",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  },
+  {
+    "strategy": "C",
+    "question_id": "q20",
+    "grounding_score": 2,
+    "grounding_reason": "Top-3 on page 4 states the Green-function/path-integral connection, though it is not the exact conclusion passage.",
+    "metadata_checks": [
+      {
+        "chunk_id": "c17f65a49e2ea8a7f7a9",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "8b3bfd82cd254161eed2",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      },
+      {
+        "chunk_id": "6da302d75ccb8586c900",
+        "correct_and_complete": true,
+        "reason": "Cross-checked source ID, PDF page and section against both source PDFs and their page maps."
+      }
+    ],
+    "filter_compliant": null,
+    "filter_reason": "No metadata filter is expected for this strategy/question."
+  }
+]

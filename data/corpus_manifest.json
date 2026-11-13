@@ -1,0 +1,57 @@
+{
+  "corpus_id": "quantum-mechanics-two-papers-v1",
+  "accessed_at": "2026-11-13",
+  "physical_pages_total": 44,
+  "content_pages_total": 41,
+  "minimum_required_content_pages": 30,
+  "meets_minimum_content_pages": true,
+  "counting_rule": "Count title/abstract and article content pages; exclude pages containing references only.",
+  "sources": [
+    {
+      "source_id": "arxiv-1204.0653-v1",
+      "title": "Derivation of the Schrödinger equation from the Hamilton-Jacobi equation in Feynman's path integral formulation of quantum mechanics",
+      "author": "J. H. Field",
+      "local_path": "data/data.pdf",
+      "official_url": "https://arxiv.org/abs/1204.0653v1",
+      "version": "arXiv v1, submitted 2012-04-03",
+      "physical_pages": 30,
+      "content_pages": 28,
+      "content_page_ids": "1-28",
+      "excluded_page_ids": {
+        "29": "References only",
+        "30": "References only"
+      },
+      "license_or_permission": "User-provided copy. arXiv records a non-exclusive license to distribute; this is not an open reuse license. Keep local and verify redistribution rights before publishing.",
+      "sha256": "5084dd09c18ce849d90b28de34d1b245d3d3f5bf5bc3b638c20acdc4b43f4da3"
+    },
+    {
+      "source_id": "mdpi-entropy-2023-25-213",
+      "title": "Quantum Oscillator at Temperature T and the Evolution of a Charged-Particle State in the Electric Field in the Probability Representation of Quantum Mechanics",
+      "authors": [
+        "Margarita A. Man’ko",
+        "Vladimir I. Man’ko"
+      ],
+      "local_path": "data/quantum-oscillator.pdf",
+      "official_url": "https://www.mdpi.com/1099-4300/25/2/213",
+      "doi": "10.3390/e25020213",
+      "version": "Entropy 2023, 25(2), 213",
+      "physical_pages": 14,
+      "content_pages": 13,
+      "content_page_ids": "1-13",
+      "excluded_page_ids": {
+        "14": "References only"
+      },
+      "license_or_permission": "Creative Commons Attribution (CC BY 4.0), as stated by the publisher. Retain author attribution and source link.",
+      "downloaded_from": "https://pdfs.semanticscholar.org/d16f/2281dd92765d7821301d99959f711da625a7.pdf",
+      "sha256": "c8191cff34e69e3916d37732ebfcfccf7fbde6effc0c79d35834c7daba9692ed"
+    }
+  ],
+  "metadata": {
+    "document_id": "Stable source identifier, assigned by ingestion CLI.",
+    "source": "Relative PDF path from workspace root.",
+    "page": "1-based physical PDF page; page_type=references pages are excluded from indexing.",
+    "section": "Section label mapped from headings printed in the source PDF; used for C metadata filtering.",
+    "document_type": "research_preprint or research_article, from source type."
+  },
+  "note": "data/data.pdf remains the primary source. The second CC BY source is a supplement to meet the 30 useful-page requirement. Confirm current user-provided source redistribution rights before pushing the primary PDF."
+}

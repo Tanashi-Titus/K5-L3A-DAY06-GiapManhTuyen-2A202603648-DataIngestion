@@ -1,0 +1,16 @@
+{
+  "1": {"section": "front_matter", "page_type": "front_matter", "language": "en", "document_type": "research_article"},
+  "2": {"section": "introduction", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "3": {"section": "symplectic_tomography", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "4": {"section": "symplectic_tomography", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "5": {"section": "oscillator_temperature", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "6": {"section": "oscillator_temperature", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "7": {"section": "charge_in_electric_field", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "8": {"section": "density_operator_evolution", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "9": {"section": "density_operator_evolution", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "10": {"section": "oscillator_charge_evolution", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "11": {"section": "coherent_excited_states", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "12": {"section": "entropy_and_conclusions", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "13": {"section": "entropy_and_conclusions", "page_type": "content", "language": "en", "document_type": "research_article"},
+  "14": {"section": "references", "page_type": "references", "language": "en", "document_type": "research_article"}
+}
