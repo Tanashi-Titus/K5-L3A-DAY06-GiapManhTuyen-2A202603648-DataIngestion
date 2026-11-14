@@ -3,20 +3,18 @@
   "dimensions": 768,
   "normalization": "L2; cosine-compatible",
   "environment": "D:\\miniconda3\\python.exe",
+  "storage": "Chroma persistent collections; raw vector dumps are not retained",
   "A": {
     "chunks": 248,
-    "vectors": 248,
-    "file": "results/vectors_A.npz"
+    "vectors": 248
   },
   "B": {
     "chunks": 275,
-    "vectors": 275,
-    "file": "results/vectors_B.npz"
+    "vectors": 275
   },
   "C": {
     "chunks": 275,
     "vectors": 275,
-    "file": "results/vectors_C.npz",
     "reuses": "B"
   }
 }

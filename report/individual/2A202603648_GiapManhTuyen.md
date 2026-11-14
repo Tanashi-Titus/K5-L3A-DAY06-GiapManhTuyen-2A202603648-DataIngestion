@@ -54,7 +54,7 @@ Giới hạn chính là chỉ có 20 câu và 5 câu test, phạm vi câu hỏi 
 
 Ứng dụng Flask gọi Mistral `ministral-8b-latest`; citation trả file, trang và bounding boxes để giao diện mở PDF đúng vị trí. Smoke test trước đó nhận HTTP 200 ở trang chính, status, trang PDF bổ sung và endpoint chat. Unit test: 5/5 passed. Không lưu API key trong Git; `starter/.env` phải được tạo từ mẫu cục bộ.
 
-Các lệnh chạy lại pipeline, benchmark, lựa chọn strategy và unit test được ghi trong `starter/README.md` và bảng trạng thái ở `report/individual/TRANG_THAI.md`. Môi trường duy nhất của project là Miniconda base.
+Các lệnh chạy lại pipeline, benchmark, lựa chọn strategy và unit test được ghi trong `starter/README.md`. Metric, trace và audit được lưu riêng trong `results/`. Môi trường duy nhất của project là Miniconda base.
 
 ## Khai báo công cụ hỗ trợ
 

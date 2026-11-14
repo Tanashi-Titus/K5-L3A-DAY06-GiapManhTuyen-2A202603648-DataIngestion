@@ -1,5 +1,4 @@
-"""Load OCR output with line-level source coordinates."""
-import json
+"""Extract text and line-level source coordinates from PDFs with a text layer."""
 import re
 import unicodedata
 from pathlib import Path
@@ -8,20 +7,6 @@ from .models import DocumentPage
 
 def normalize_text(text: str) -> str:
     return '\n'.join(re.sub(r'[^\S\n]+', ' ', line).strip() for line in unicodedata.normalize('NFC', text).splitlines()).strip()
-
-
-def load_ocr(path: Path, document_id: str, source: str) -> list[DocumentPage]:
-    data = json.loads(path.read_text(encoding='utf-8'))
-    pages = []
-    for p in data['pages']:
-        lines = []
-        for line in p['lines']:
-            text = normalize_text(line['text'])
-            if text:
-                lines.append({**line, 'text': text})
-        pages.append(DocumentPage(document_id, source, p['page'], '\n'.join(x['text'] for x in lines),
-                                  {'lines': lines, 'page_width': p['width'], 'page_height': p['height']}))
-    return pages
 
 
 def load_pdf(path: Path, document_id: str, source: str) -> list[DocumentPage]:

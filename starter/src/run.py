@@ -1,11 +1,10 @@
-"""Ingest scanned documents and run a locked dev/test retrieval benchmark."""
+"""Ingest text-based PDFs and run a locked dev/test retrieval benchmark."""
 import argparse
 import json
-import os
 import sys
 import time
 from pathlib import Path
-from .ingestion import load_ocr, load_pdf
+from .ingestion import load_pdf
 from .chunking import fixed_size, by_paragraph
 from .evaluation import evaluate_query, summarize
 from .embeddings import MyEmbedder, default_model
@@ -19,11 +18,6 @@ MODEL = default_model()
 def save(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
-
-
-def chunk_record(chunk):
-    return {'chunk_id':chunk.chunk_id,'document_id':chunk.document_id,'source':chunk.source,
-            'page':chunk.page,'text':chunk.text,'metadata':chunk.metadata}
 
 
 def ingest(args):
@@ -47,16 +41,8 @@ def ingest(args):
             pages.extend(useful_pages)
             documents.append({'document_id': document_id, 'source': source, 'physical_pages': len(document_pages),
                               'content_pages': len(useful_pages)})
-    elif args.ocr:
-        document_id = args.document_id[0] if args.document_id else 'ocr-document'
-        source = args.source[0] if args.source else args.ocr
-        pages = load_ocr(Path(args.ocr), document_id, source)
-        documents = [{'document_id': document_id, 'source': source, 'physical_pages': len(pages), 'content_pages': len(pages)}]
     else:
-        raise ValueError('Provide --pdf or --ocr')
-    if args.ocr and args.metadata:
-        page_metadata = json.loads(Path(args.metadata[0]).read_text(encoding='utf-8'))
-        for page in pages: page.metadata.update(page_metadata.get(str(page.page), {}))
+        raise ValueError('Provide at least one --pdf')
     embedder = MyEmbedder(args.model)
     store = ChromaStore(args.store)
     stats = []
@@ -71,13 +57,6 @@ def ingest(args):
             vectors = embedder.embed_documents([c.text for c in chunks])
             if strategy == 'B': shared_chunks, shared_vectors = chunks, vectors
         store.replace(strategy, chunks, vectors)
-        records = [chunk_record(c) for c in chunks]
-        save(RESULTS/f'chunks_{strategy}.json', records)
-        import numpy as np
-        array = np.asarray(vectors, dtype=np.float32)
-        np.savez_compressed(RESULTS/f'vectors_{strategy}.npz', vectors=array,
-                            chunk_ids=np.asarray([c.chunk_id for c in chunks]),
-                            model=np.asarray(args.model), dimensions=np.asarray(embedder.dimensions))
         stats.append({'strategy': strategy, 'chunks': len(chunks), 'characters': sum(len(c.text) for c in chunks),
                       'min_length': min(map(lambda c:len(c.text),chunks)), 'max_length': max(map(lambda c:len(c.text),chunks)),
                       'mean_length':round(sum(len(c.text) for c in chunks)/len(chunks),1),
@@ -90,7 +69,8 @@ def ingest(args):
     save(RESULTS/'chunk_stats.json', chunk_summary)
     save(RESULTS/'embedding_stats.json', {'model':args.model,'dimensions':embedder.dimensions,
         'normalization':'L2; cosine-compatible','environment':sys.executable,
-        **{s['strategy']:{'chunks':s['chunks'],'vectors':s['vectors'],'file':f"results/vectors_{s['strategy']}.npz",
+        'storage':'Chroma persistent collections; raw vector dumps are not retained',
+        **{s['strategy']:{'chunks':s['chunks'],'vectors':s['vectors'],
             **({'reuses':'B'} if s['strategy']=='C' else {})} for s in stats}})
     save(RESULTS/'chroma_stats.json', {'backend':'Chroma PersistentClient','path':args.store,'metric':'cosine',
         'collections':{s['strategy']:s['chunks'] for s in stats},'sources':[d['source'] for d in documents]})
@@ -138,7 +118,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
     ingest_p = sub.add_parser('ingest')
-    ingest_p.add_argument('--ocr'); ingest_p.add_argument('--pdf', action='append'); ingest_p.add_argument('--document-id', action='append')
+    ingest_p.add_argument('--pdf', action='append', required=True); ingest_p.add_argument('--document-id', action='append')
     ingest_p.add_argument('--source', action='append'); ingest_p.add_argument('--metadata', action='append')
     ingest_p.add_argument('--store', default=str(RESULTS/'chroma')); ingest_p.add_argument('--model', default=MODEL)
     ingest_p.set_defaults(func=ingest)

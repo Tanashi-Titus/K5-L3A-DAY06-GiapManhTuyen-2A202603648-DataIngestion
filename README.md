@@ -10,7 +10,7 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 ## Bắt đầu nhanh
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+Xem [hướng dẫn chạy project](starter/README.md). Pipeline hiện dùng Chroma persistent, EmbeddingGemma 2 local và Mistral cho chat demo.
 
 ## 1. Xây pipeline
 
@@ -36,7 +36,7 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 
 | Bạn cần tìm | Tài liệu |
 |---|---|
-| Setup baseline PostgreSQL + pgvector | [starter/README.md](starter/README.md) |
+| Cài đặt và chạy pipeline/demo | [starter/README.md](starter/README.md) |
 | Các bước làm và cách tính chỉ số | [GUIDE.md](GUIDE.md) |
 | Tiến độ trong 4 giờ | [CHECKPOINTS.md](CHECKPOINTS.md) |
 | Năm tiêu chí benchmark và bộ câu hỏi | [BENCHMARK.md](BENCHMARK.md) |
@@ -48,4 +48,4 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 
 ## Triển khai lab và demo tại máy
 
-Phần hiện thực nằm trong `starter/`. Xem [hướng dẫn chạy](starter/README.md#triển-khai-pipeline-và-demo), [manifest](data/manifest.json), [kế hoạch so sánh](artifacts/experiment_plan.txt) và [bảng đối chiếu](report/individual/TRANG_THAI.md). Các kết quả chưa chạy hoặc chưa kiểm chứng không được xem là kết quả bài nộp.
+Phần hiện thực nằm trong `starter/`. Xem [hướng dẫn chạy](starter/README.md), [manifest](data/corpus_manifest.json), [kế hoạch so sánh](artifacts/experiment_plan.txt), [báo cáo cá nhân](report/individual/2A202603648_GiapManhTuyen.md) và các minh chứng trong `results/`. Các nhãn audit cần được học viên tự kiểm tra trước khi nộp.
